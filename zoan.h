@@ -1,12 +1,13 @@
 #include <string>
 #include <vector>
+#include "frutadeldiablo.h"
 
 #ifndef ZOAN_H
 #define ZOAN_H
 
 using namespace std;
 
-class zoan {
+class zoan : public frutadeldiablo {
 
 	private:
 		string tipo;
@@ -14,7 +15,7 @@ class zoan {
 
 	public:
 		zoan();
-		zoan(string, string);
+		zoan(string, string, string);
 		string getTipo();
 		string getAnimal();
 

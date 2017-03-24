@@ -1,3 +1,5 @@
+#include "frutadeldiablo.h"
+
 #include <string>
 #include <vector>
 
@@ -27,14 +29,14 @@ class seres {
 		string getRaza();
 		int getEdad();
 		string getNombre();
-		frutadeldiablo getFruta();
+		frutadeldiablo* getFruta();
 		bool getHakiobs();
 		bool getHakiarmadura();
 		bool getHakirey();
 		bool getFrutaE();
 
 		//Setter
-		void setFruta(frutadeldiablo);
+		void setFruta(frutadeldiablo*);
 };
 
 #endif

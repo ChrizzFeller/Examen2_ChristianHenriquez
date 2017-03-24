@@ -1,12 +1,13 @@
 #include <string>
 #include <vector>
+#include "seres.h"
 
 #ifndef MARINA_H
 #define MARINA_H
 
 using namespace std;
 
-class marina {
+class marina : public seres {
 
 	private:
 		string fechadeingreso;
@@ -14,7 +15,7 @@ class marina {
 
 	public:
 		marina();
-		marina(string, string);
+		marina(string, int, string, bool, bool, bool, bool, string, string);
 		string getFecha();
 		string getRango();
 

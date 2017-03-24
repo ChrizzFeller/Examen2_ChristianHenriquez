@@ -1,20 +1,21 @@
 #include <string>
 #include <vector>
+#include "frutadeldiablo.h"
 
 #ifndef LOGIA_H
 #define LOGIA_H
 
 using namespace std;
 
-class logia {
+class logia : public frutadeldiablo {
 
 	private:
-		string elemento;
+		string elementos;
 
 	public:
 		logia();
-		logia(string);
-		string getElemento();
+		logia(string, string);
+		string getElementos();
 
 };
 

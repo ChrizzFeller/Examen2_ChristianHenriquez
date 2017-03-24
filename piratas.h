@@ -1,12 +1,13 @@
 #include <string>
 #include <vector>
+#include "seres.h"
 
 #ifndef PIRATAS_H
 #define PIRATAS_H
 
 using namespace std;
 
-class piratas {
+class piratas : public seres {
 
 	private:
 		string oceano;
@@ -15,7 +16,7 @@ class piratas {
 
 	public:
 		piratas();
-		piratas(string, string, string);
+		piratas(string, int, string, bool, bool, bool, bool, string, string, string);
 		string getOceano();
 		string getTripulacion();
 		string getFuncion();

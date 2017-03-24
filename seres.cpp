@@ -16,38 +16,38 @@ seres::seres(string pRaza, int pEdad, string pnombre, bool pfrutaE, bool phakiob
 	phakirey = hakirey;
 }
 
-seres::getRaza() {
+string seres::getRaza() {
 	return this->raza;
 }
 
-seres::getNombre() {
+string seres::getNombre() {
 	return this->nombre;
 }
 
-seres::getfrutadeldiablo() {
+frutadeldiablo* seres::getFruta() {
 	return this->fruta;
 }
 
-seres::getHakiobservacion() { 
+bool seres::getHakiobs() { 
 	return this->hakiobservacion; 
 }
 
-seres::getHakiarmadura() { 
+bool seres::getHakiarmadura() { 
 	return this->hakiarmadura; 
 }
 
-seres::getHakirey() { 
+bool seres::getHakirey() { 
 	return this->hakirey; 
 }
 
-seres::getEdad() {
+int seres::getEdad() {
 	return this->edad;
 }
 
-seres::setFruta(frutadeldiablo f2) {
+void seres::setFruta(frutadeldiablo* f2) {
 	this->fruta = f2;
 }
 
-seres::getFrutaE() {
+bool seres::getFrutaE() {
 	return this->frutaE;
 }

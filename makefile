@@ -1,7 +1,7 @@
 Main: Main.o seres.o marina.o piratas.o revolucionarios.o frutadeldiablo.o paramecia.o zoan.o logia.o
 	g++ Main.o seres.o marina.o piratas.o revolucionarios.o frutadeldiablo.o paramecia.o zoan.o logia.o -o Main
 
-Main.o: Main.cpp seres.h marina.h piratas.h revolucionarios.h frutadeldiablo.h paramecia.h zoan.ohlogia.h
+Main.o: Main.cpp seres.h marina.h piratas.h revolucionarios.h frutadeldiablo.h paramecia.h zoan.h logia.h
 	g++ -c Main.cpp
 
 seres.o: seres.h seres.cpp
