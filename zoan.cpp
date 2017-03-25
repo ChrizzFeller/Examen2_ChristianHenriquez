@@ -5,7 +5,7 @@ using namespace std;
 zoan::zoan() {
 }
 
-zoan::zoan(string pnombre, string ptipo, string panimal) : frutadeldiablo(pnombre) {
+zoan::zoan(string pnombre, int ppos, string ptipo, string panimal) : frutadeldiablo(pnombre, ppos) {
 	tipo = ptipo;
 	animal = panimal;
 }

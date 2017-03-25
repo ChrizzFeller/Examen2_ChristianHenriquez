@@ -5,7 +5,7 @@ using namespace std;
 paramecia::paramecia() {
 }
 
-paramecia::paramecia(string pnombre, string pdescripcion) : frutadeldiablo(pnombre) {
+paramecia::paramecia(string pnombre, int ppos, string pdescripcion) : frutadeldiablo(pnombre, ppos) {
 	descripcion = pdescripcion;
 }
 

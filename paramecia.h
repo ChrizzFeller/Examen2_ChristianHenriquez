@@ -14,7 +14,7 @@ class paramecia : public frutadeldiablo {
 
 	public:
 		paramecia();
-		paramecia(string, string);
+		paramecia(string, int, string);
 		string getDescripcion();
 
 };

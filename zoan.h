@@ -15,7 +15,7 @@ class zoan : public frutadeldiablo {
 
 	public:
 		zoan();
-		zoan(string, string, string);
+		zoan(string, int, string, string);
 		string getTipo();
 		string getAnimal();
 

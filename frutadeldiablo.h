@@ -10,11 +10,13 @@ class frutadeldiablo {
 
 	protected:
 		string nombre;
+		int pos;
 
 	public:
 		frutadeldiablo();
-		frutadeldiablo(string);
+		frutadeldiablo(string, int);
 		string getNombre();
+		int getPos();
 
 };
 

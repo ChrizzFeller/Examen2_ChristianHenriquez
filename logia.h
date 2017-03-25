@@ -14,7 +14,7 @@ class logia : public frutadeldiablo {
 
 	public:
 		logia();
-		logia(string, string);
+		logia(string, int, string);
 		string getElementos();
 
 };

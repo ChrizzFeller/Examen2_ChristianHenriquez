@@ -5,7 +5,7 @@ using namespace std;
 logia::logia() {
 }
 
-logia::logia(string pnombre, string pelementos) : frutadeldiablo(pnombre){
+logia::logia(string pnombre, int ppos, string pelementos) : frutadeldiablo(pnombre, ppos){
 	elementos = pelementos;
 }
 
